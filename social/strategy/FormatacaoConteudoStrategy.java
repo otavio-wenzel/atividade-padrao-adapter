@@ -1,5 +1,7 @@
 package social.strategy;
 
-public class FormatacaoConteudoStrategy {
-    
+import social.model.Conteudo;
+
+public interface FormatacaoConteudoStrategy {
+    String formatar(Conteudo conteudo);
 }

@@ -1,5 +1,10 @@
 package social.strategy;
 
-public class TextoPlanoStrategy {
-    
+import social.model.Conteudo;
+
+
+public class TextoPlanoStrategy implements FormatacaoConteudoStrategy {
+    @Override public String formatar(Conteudo conteudo) {
+        return conteudo.getTexto();
+    }
 }

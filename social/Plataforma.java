@@ -1,5 +1,5 @@
 package social;
 
-public class Plataforma {
-    
+public enum Plataforma {
+    TWITTER, INSTAGRAM, LINKEDIN, TIKTOK
 }
